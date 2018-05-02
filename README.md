@@ -17,9 +17,9 @@ Dataset URL Goes Here
 
 ## Authors
 
-* **Matthew Wnuk** - *Initial work* - [wnukmat](https://github.com/wnukmat)
-* **Juan Castillo**       - *Initial work* - 
-* **Mansur Amin** - *Initial work* -  [mansuramin](https://github.com/wnukmat)
+* **Matthew Wnuk**   - *Initial work* - [wnukmat](https://github.com/wnukmat)
+* **Juan Castillo**  - *Initial work* - 
+* **Mansur Amin**    - *Initial work* -  [mansuramin](https://github.com/wnukmat)
 
 ## License
 
