@@ -21,21 +21,15 @@ import ASL_Class as asl
 ####### Read training data
 
 # Windows Path
-#path = 'C:\\Users\\maamin\\Desktop\\ECE_285_ML_DL\\ASL_Gesture_Recognition\\data\\sign_mnist_train.csv'
+# path = 'C:\\Users\\maamin\\Desktop\\ECE_285_ML_DL\\data\\sign_mnist_train.csv'
 
 # Mac path
-path = '/Users/mansuramin/Desktop/ECE_285_ML/data/sign_mnist_train.csv'
+# path = '/Users/mansuramin/Desktop/ECE_285_ML/data/sign_mnist_train.csv'
+
+# Linux Server Path
+path = '/datasets/home/56/256/maamin/data/sign_mnist_train.csv'
+
 
 trn_dat_vec,trn_lbl = asl.read_data(path)
 indx = 10240
 asl.vis_data(trn_dat_vec[indx,:],trn_lbl[indx])
-
-
-
-
-
-
-
-
-
-
