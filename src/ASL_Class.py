@@ -44,3 +44,14 @@ def vis_data(dat_vec,dat_lbl) :
    dat_mat = dat_vec.reshape(28,28)
    plt.title('Image Label = ' + str(dat_lbl) + ' = ' + lbl_map[dat_lbl])
    plt.imshow(dat_mat)
+    
+#####################################################################
+# def normalize_MNIST_images(x) :
+# Normalize data in range of -1 to 1
+# x = vector representing data
+#####################################################################
+def normalize_MNIST_images(x) : 
+    x = x.astype(np.float64)
+    x = 2*(x-np.min(x))/(np.max(x)-np.min(x))-1
+    print("Normalize_MNIST_images", x.shape)
+    return x
