@@ -50,8 +50,8 @@ def vis_data(dat_vec,dat_lbl) :
 # Normalize data in range of -1 to 1
 # x = vector representing data
 #####################################################################
-def normalize_MNIST_images(x) : 
+def normalize_MNIST_images(x,max_x, diff) : 
     x = x.astype(np.float64)
-    x = 2*(x-np.min(x))/(np.max(x)-np.min(x))-1
+    x = max_x*(x-np.min(x))/(np.max(x)-np.min(x))-diff
     print("Normalize_MNIST_images", x.shape)
     return x
