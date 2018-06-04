@@ -8,18 +8,21 @@ git clone https://github.com/wnukmat/ASL_Gesture_Recognition
 
 ### Dependancies
 
+pip install numpy
+pip install matplotlib.pyplot
 
 ### Dataset
 
 ```
-Dataset URL Goes Here
+https://www.kaggle.com/datamunge/sign-language-mnist/data
+https://www.bu.edu/av/asllrp/dai-asllvd.html
 ```
 
 ## Authors
 
-* **Matthew Wnuk**   - *Initial work* - [wnukmat](https://github.com/wnukmat)
-* **Juan Castillo**  - *Initial work* - [juancastillo](https://github.com/wnukmat)
-* **Mansur Amin**    - *Initial work* - [mansuramin](https://github.com/mansuramin)
+* **Matthew Wnuk**   - *RNN ASL Videos* - [wnukmat](https://github.com/wnukmat)
+* **Juan Castillo**  - *RNN ASL Videos * - [juancastillo](https://github.com/wnukmat)
+* **Mansur Amin**    - *CNN ASL Images* - [mansuramin](https://github.com/mansuramin)
 
 ## License
 
