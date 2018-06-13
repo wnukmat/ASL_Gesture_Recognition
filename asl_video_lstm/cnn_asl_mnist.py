@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>main.py (editing)</title>
+    <title>cnn_asl_mnist.py (editing)</title>
     <link id="favicon" rel="shortcut icon" type="image/x-icon" href="/static/base/images/favicon-file.ico?v=e2776a7f45692c839d6eea7d7ff6f3b2">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=9b2c8d3489227115310662a343fce11c" type="text/css" />
@@ -113,7 +113,7 @@
 <body class="edit_app "
  
 data-base-url="/"
-data-file-path="ASL_Gesture_Recognition/asl_video_lstm/main.py"
+data-file-path="ASL_Gesture_Recognition/asl_video_lstm/cnn_asl_mnist.py"
 
   
     data-jupyter-api-token="a87009507a164770aeb3926005c0436eb90c4dd43e76c1451e59caf329ffb060"
