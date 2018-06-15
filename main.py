@@ -5,6 +5,7 @@ Main Script to run all 3 models in the ASL project
 
 Contributors: 
 Juan Camilo Castillo - castillojuancamilo@gmail.com
+Mansur Amin          - maamin@eng.ucsd.edu
 """
 # =============================================================================
 #  Project Imports
@@ -25,7 +26,14 @@ from keras.optimizers import Adam
 from keras.preprocessing.image import ImageDataGenerator
 from keras.preprocessing.image import DirectoryIterator
 from keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
-from cnn_asl_mnist import main as cnn_main
+
+from asl_img_cnn.cnn_asl_mnist import main as cnn_main
+
+# import sys
+# sys.path.append('/asl_img_cnn/cnn_asl_mnist')
+# from cnn_asl_mnist import main as cnn_main
+
+
 # =============================================================================
 # FUNCTIONS
 # =============================================================================
