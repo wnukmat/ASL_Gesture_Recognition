@@ -34,7 +34,7 @@ pip install pandas <br/>
 pip install matplotlib.pyplot <br/>
 
 ## Code Organization
-
+<pre>
 main.py                                       -- Extracts Data and Trains all Models <br/>
 
 asl_img_cnn/cnn_asl_mnist.ipynb               -- Trains and Test using Kaggel Image Dataset <br/>
@@ -47,4 +47,4 @@ asl_video_lstm/get_data.py                    -- Download data from Online <br/>
 asl_video_lstm/load_features.py               -- Loads features from directories to be used for LSTM training <br/> 
 asl_video_lstm/lstm.py                        -- Trains LSTM <br/>
 asl_video_lstm/test.xlsx                      -- Excel file pointing to online videos and used by get_data.py <br/>
-
+</pre>
