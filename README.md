@@ -21,7 +21,13 @@ https://www.bu.edu/av/asllrp/dai-asllvd.html <br/>
 
 
 ## Description
-In this project we propose using deep learning to implement a system that can identify/classify both static images and gestures of mono-morphemic signs from videos. We will be using 2 strategies that leverage the advances in deep learning .The first strategy employs the use of a single Convolutional Neural Network that will classify letters of the alphabet and will be known as the ASL Image Model. The second strategy employs the use of transfer learning, where we attempt at using two network architectures to classify ASL videos, this model will be known as ASL Video Models. The first being a CNN paired with a attention mapping architecture, and the second being a CNN paired with an Recurrent Neural Network (RNN).
+In this project we propose using deep learning to implement a system that can identify/classify both static <br/>
+images and gestures of mono-morphemic signs from videos. We will be using 2 strategies that leverage the advances <br/>
+in deep learning .The first strategy employs the use of a single Convolutional Neural Network that will classify <br/>
+letters of the alphabet and will be known as the ASL Image Model. The second strategy employs the use of transfer <br/>
+learning, where we attempt at using two network architectures to classify ASL videos, this model will be known as <br/>
+ASL Video Models. The first being a CNN paired with a attention mapping architecture, and the second being a CNN <br/>
+paired with an Recurrent Neural Network (RNN). <br/>
 
 ## Requirments 
 Install packages as follows: <br/>
@@ -32,6 +38,10 @@ pip install time <br/>
 pip install numpy <br/>
 pip install pandas <br/>
 pip install matplotlib.pyplot <br/>
+
+## Run Instructions 
+Juan Enter Instructions on how to run the code here: 
+
 
 ## Code Organization
 <pre>
