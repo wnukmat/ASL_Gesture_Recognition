@@ -40,7 +40,11 @@ pip install pandas <br/>
 pip install matplotlib.pyplot <br/>
 
 ## Run Instructions 
-Juan Enter Instructions on how to run the code here: 
+The main.py file will create a set of directories filled with the training data and train all the associated models for this project. Runtime is approximately 3.5 hours and will produce plots found in the report. To run code: 
+
+>> python main.py
+
+
 
 
 ## Code Organization
