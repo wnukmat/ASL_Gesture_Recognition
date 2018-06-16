@@ -16,7 +16,7 @@ https://www.bu.edu/av/asllrp/dai-asllvd.html <br/>
 ## Authors
 
 * **Mansur Amin**    - *CNN Images*               - [mansuramin](https://github.com/mansuramin) <br/>
-* **Juan Castillo**  - *Transfer LEarning Videos* - [juancastillo](https://github.com/camiloj4) <br/>
+* **Juan Castillo**  - *Transfer Learning Videos* - [juancastillo](https://github.com/camiloj4) <br/>
 * **Matthew Wnuk**   - *LSTM Videos*              - [wnukmat](https://github.com/wnukmat) <br/>
 
 
